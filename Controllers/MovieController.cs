@@ -16,4 +16,10 @@ public class MovieController : ControllerBase
         Console.WriteLine(movie.Title);
         Console.WriteLine(movie.Duration);
     }
+
+    [HttpGet]
+    public List<Movie> GetMovies()
+    {
+        return movies;
+    }
 }
