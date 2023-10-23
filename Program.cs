@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using MovieApi.Data;
 
+
+//Ir para aula 02 - 03 relaionando Endereço e Cinema 07:45
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("MovieConnection");
